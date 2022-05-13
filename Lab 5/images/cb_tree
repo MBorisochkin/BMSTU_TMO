@@ -1,0 +1,159 @@
+digraph {
+	0 [label="Holiday_Flag, value>0.5" color=black shape=ellipse]
+	1 [label="Unemployment, value>8.958" color=black shape=ellipse]
+	0 -> 1 [label=No]
+	2 [label="Unemployment, value>8.958" color=black shape=ellipse]
+	0 -> 2 [label=Yes]
+	3 [label="CPI, value>130.834" color=black shape=ellipse]
+	1 -> 3 [label=No]
+	4 [label="CPI, value>130.834" color=black shape=ellipse]
+	1 -> 4 [label=Yes]
+	5 [label="CPI, value>130.834" color=black shape=ellipse]
+	2 -> 5 [label=No]
+	6 [label="CPI, value>130.834" color=black shape=ellipse]
+	2 -> 6 [label=Yes]
+	7 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	3 -> 7 [label=No]
+	8 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	3 -> 8 [label=Yes]
+	9 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	4 -> 9 [label=No]
+	10 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	4 -> 10 [label=Yes]
+	11 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	5 -> 11 [label=No]
+	12 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	5 -> 12 [label=Yes]
+	13 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	6 -> 13 [label=No]
+	14 [label="{Store} counter_type=Borders prior_numerator=0, value>2" color=black shape=ellipse]
+	6 -> 14 [label=Yes]
+	15 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	7 -> 15 [label=No]
+	16 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	7 -> 16 [label=Yes]
+	17 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	8 -> 17 [label=No]
+	18 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	8 -> 18 [label=Yes]
+	19 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	9 -> 19 [label=No]
+	20 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	9 -> 20 [label=Yes]
+	21 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	10 -> 21 [label=No]
+	22 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	10 -> 22 [label=Yes]
+	23 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	11 -> 23 [label=No]
+	24 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	11 -> 24 [label=Yes]
+	25 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	12 -> 25 [label=No]
+	26 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	12 -> 26 [label=Yes]
+	27 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	13 -> 27 [label=No]
+	28 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	13 -> 28 [label=Yes]
+	29 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	14 -> 29 [label=No]
+	30 [label="{Store} counter_type=Borders prior_numerator=1, value>14" color=black shape=ellipse]
+	14 -> 30 [label=Yes]
+	31 [label="val = -327156.148
+" color=red shape=rect]
+	15 -> 31 [label=No]
+	32 [label="val = -48505.163
+" color=red shape=rect]
+	15 -> 32 [label=Yes]
+	33 [label="val = -78471.516
+" color=red shape=rect]
+	16 -> 33 [label=No]
+	34 [label="val = 446317.097
+" color=red shape=rect]
+	16 -> 34 [label=Yes]
+	35 [label="val = -240663.564
+" color=red shape=rect]
+	17 -> 35 [label=No]
+	36 [label="val = 52253.128
+" color=red shape=rect]
+	17 -> 36 [label=Yes]
+	37 [label="val = -39074.193
+" color=red shape=rect]
+	18 -> 37 [label=No]
+	38 [label="val = 254729.735
+" color=red shape=rect]
+	18 -> 38 [label=Yes]
+	39 [label="val = -296446.460
+" color=red shape=rect]
+	19 -> 39 [label=No]
+	40 [label="val = -14496.328
+" color=red shape=rect]
+	19 -> 40 [label=Yes]
+	41 [label="val = -35897.496
+" color=red shape=rect]
+	20 -> 41 [label=No]
+	42 [label="val = 402562.176
+" color=red shape=rect]
+	20 -> 42 [label=Yes]
+	43 [label="val = -229247.947
+" color=red shape=rect]
+	21 -> 43 [label=No]
+	44 [label="val = -75795.868
+" color=red shape=rect]
+	21 -> 44 [label=Yes]
+	45 [label="val = 10390.007
+" color=red shape=rect]
+	22 -> 45 [label=No]
+	46 [label="val = 120722.452
+" color=red shape=rect]
+	22 -> 46 [label=Yes]
+	47 [label="val = -282834.430
+" color=red shape=rect]
+	23 -> 47 [label=No]
+	48 [label="val = 0.000
+" color=red shape=rect]
+	23 -> 48 [label=Yes]
+	49 [label="val = -24072.259
+" color=red shape=rect]
+	24 -> 49 [label=No]
+	50 [label="val = 370968.586
+" color=red shape=rect]
+	24 -> 50 [label=Yes]
+	51 [label="val = -211080.510
+" color=red shape=rect]
+	25 -> 51 [label=No]
+	52 [label="val = -69797.021
+" color=red shape=rect]
+	25 -> 52 [label=Yes]
+	53 [label="val = 20430.728
+" color=red shape=rect]
+	26 -> 53 [label=No]
+	54 [label="val = 291256.156
+" color=red shape=rect]
+	26 -> 54 [label=Yes]
+	55 [label="val = -234278.616
+" color=red shape=rect]
+	27 -> 55 [label=No]
+	56 [label="val = 0.000
+" color=red shape=rect]
+	27 -> 56 [label=Yes]
+	57 [label="val = 25288.753
+" color=red shape=rect]
+	28 -> 57 [label=No]
+	58 [label="val = 207683.448
+" color=red shape=rect]
+	28 -> 58 [label=Yes]
+	59 [label="val = -183132.982
+" color=red shape=rect]
+	29 -> 59 [label=No]
+	60 [label="val = -25253.656
+" color=red shape=rect]
+	29 -> 60 [label=Yes]
+	61 [label="val = 13959.906
+" color=red shape=rect]
+	30 -> 61 [label=No]
+	62 [label="val = 78776.723
+" color=red shape=rect]
+	30 -> 62 [label=Yes]
+}
